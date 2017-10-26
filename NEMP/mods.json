@@ -4343,7 +4343,34 @@
         "curse": {
             "id": "237366",
             "name": "armorplus",
-            "regex": "ArmorPlus (?P<version>.+)"
+            "regex": "armorplus-(?P<mc>[0-9\\.]+)-(?P<version>.+?)\\.jar"
+        }
+    },
+    "TheDragonLib": {
+        "function": "CheckCurse",
+        "active": true,
+        "curse": {
+            "id": "248055",
+            "name": "thedragonlib",
+            "regex": "thedragonlib-(?P<mc>[0-9\\.]+)-(?P<version>.+?)\\.jar
+        }
+    },
+    "CustomCraftingTables": {
+        "function": "CheckCurse",
+        "active": true,
+        "curse": {
+            "id": "256411",
+            "name": "cct",
+            "regex": "cct-(?P<mc>[0-9\\.]+)-(?P<version>.+?)\\.jar
+        }
+    },
+    "MobSettings": {
+        "function": "CheckCurse",
+        "active": true,
+        "curse": {
+            "id": "256411",
+            "name": "mobsettings",
+            "regex": "mobsettings-(?P<mc>[0-9\\.]+)-(?P<version>.+?)\\.jar
         }
     }
 }
