@@ -4368,7 +4368,7 @@
         "function": "CheckCurse",
         "active": true,
         "curse": {
-            "id": "256411",
+            "id": "247819",
             "name": "mobsettings",
             "regex": "mobsettings-(?P<mc>[0-9\\.]+)-(?P<version>.+?)\\.jar
         }
